@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),  url(BG/tech.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    align-items: right;
+    justify-content: right;   
+}
+.navbar ul{
+    display: flex;
+    justify-content: right;
+    align-items: center; 
+    height: 100px;   
+    margin-right: 70px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 25px;
+    font-size: 16px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(187, 180, 181);
+
+}
+
+.navbar ul li a:hover{
+    color: rgb(194, 40, 40);
+}
+.squares{
+    height: 200px;
+    width: 1120px;
+    margin: 200px 300px;
+}
+.square{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgba(61, 18, 18, 0.507);opacity: 80%;
+    background-position: center;
+    background-size: cover;
+    transition: transition 0.5s;
+    margin-left: 30px;
+}
+
+.square a{
+    color: rgb(238, 247, 244);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: 80px; left: 50px;
+    text-decoration: none;
+    
+}
+.square:hover{
+    transform:translateY(-20px);
+}
